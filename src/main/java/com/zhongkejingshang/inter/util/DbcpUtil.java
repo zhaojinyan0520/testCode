@@ -12,6 +12,10 @@ import com.zhongkejingshang.inter.model.AutoLog;
 public class DbcpUtil {
 	private static BasicDataSource dataSource = null;
 	private static String sqlBatch="insert into autolog2(testCase,reqType,reqUrl,reqData,expResult,actResult,result,execTime) values (?,?,?,?,?,?,?,?)";
+	
+	/**
+	 * 配置连接池的基本信息
+	 */
 	static{
 		
 		try {
