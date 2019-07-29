@@ -8,7 +8,6 @@ package com.zhongkejingshang.inter.util;
 		//初始化变量
 		
 		private String str = "yyyy:MM:dd HH:mm:ss:SSS";
-		
 		/**
 		 * 获取时间戳
 		 * @param args
@@ -17,6 +16,7 @@ package com.zhongkejingshang.inter.util;
 			return new Date().getTime();
 			
 		}
+		//
 		/**
 		 * 获取当前时间和日期
 		 * @param args
