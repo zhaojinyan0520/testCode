@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[接口请求地址：http://10.11.99.4:4999/app/User]]>
+    </line>
+    <line>
+      <![CDATA[请求参数：UID=200]]>
+    </line>
+    <line>
+      <![CDATA[请求预期值：$.status=200]]>
+    </line>
+    <line>
+      <![CDATA[接口实际返回值：UID=200]]>
+    </line>
+    <line>
+      <![CDATA[实际值和预期值做对比：0]]>
+    </line>
+    <line>
+      <![CDATA[数据库数据：[com.zhongkejingshang.inter.model.AutoLog@524c00ec]]]>
+    </line>
+    <line>
+      <![CDATA[接口请求地址：http://10.11.99.4:4999/app/Camera]]>
+    </line>
+    <line>
+      <![CDATA[请求参数：CID=1&CompanyName=Sylincom]]>
+    </line>
+    <line>
+      <![CDATA[请求预期值：$.CamResultM='Camera0: 10000 Camera1: 10001']]>
+    </line>
+    <line>
+      <![CDATA[接口实际返回值：CID=1&CompanyName=Sylincom]]>
+    </line>
+    <line>
+      <![CDATA[实际值和预期值做对比：0]]>
+    </line>
+    <line>
+      <![CDATA[数据库数据：[com.zhongkejingshang.inter.model.AutoLog@524c00ec, com.zhongkejingshang.inter.model.AutoLog@159bd4f5]]]>
+    </line>
+    <line>
+      <![CDATA[接口请求地址：http://10.11.99.4:4999/app/User]]>
+    </line>
+    <line>
+      <![CDATA[请求参数：UID=1&LoginType=0&CompanyName=Sylincom&UserName=zhao6&LoginPassword=123]]>
+    </line>
+    <line>
+      <![CDATA[请求预期值：$.UserResultM='Login successfully!']]>
+    </line>
+    <line>
+      <![CDATA[接口实际返回值：UID=1&LoginType=0&CompanyName=Sylincom&UserName=zhao6&LoginPassword=123]]>
+    </line>
+    <line>
+      <![CDATA[实际值和预期值做对比：0]]>
+    </line>
+    <line>
+      <![CDATA[数据库数据：[com.zhongkejingshang.inter.model.AutoLog@524c00ec, com.zhongkejingshang.inter.model.AutoLog@159bd4f5, com.zhongkejingshang.inter.model.AutoLog@43350e24]]]>
+    </line>
+    <line>
+      <![CDATA[接口请求地址：http://10.11.99.4:4999/app/User]]>
+    </line>
+    <line>
+      <![CDATA[请求参数：UID=3&PModifyType=0&UserName=zhao6&OldPassword=111&NewPassword=333]]>
+    </line>
+    <line>
+      <![CDATA[请求预期值：$.UserResultM='the Successful password modification']]>
+    </line>
+    <line>
+      <![CDATA[接口实际返回值：UID=3&PModifyType=0&UserName=zhao6&OldPassword=111&NewPassword=333]]>
+    </line>
+    <line>
+      <![CDATA[实际值和预期值做对比：0]]>
+    </line>
+    <line>
+      <![CDATA[数据库数据：[com.zhongkejingshang.inter.model.AutoLog@524c00ec, com.zhongkejingshang.inter.model.AutoLog@159bd4f5, com.zhongkejingshang.inter.model.AutoLog@43350e24, com.zhongkejingshang.inter.model.AutoLog@5bb6815c]]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95061" started-at="2019-07-29T02:24:39Z" finished-at="2019-07-29T02:26:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="95061" started-at="2019-07-29T02:24:39Z" finished-at="2019-07-29T02:26:14Z">
+      <class name="com.zhongkejingshang.testng.TestRun">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhongkejingshang.testng.TestRun@1fc202e5]" name="f" duration-ms="21696" started-at="2019-07-29T10:24:41Z" data-provider="dp" finished-at="2019-07-29T10:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[获取所有公司信息]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://10.11.99.4:4999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/app/User]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[UID=200]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.status=200]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口请求地址：http://10.11.99.4:4999/app/User]]>
+            </line>
+            <line>
+              <![CDATA[请求参数：UID=200]]>
+            </line>
+            <line>
+              <![CDATA[请求预期值：$.status=200]]>
+            </line>
+            <line>
+              <![CDATA[接口实际返回值：UID=200]]>
+            </line>
+            <line>
+              <![CDATA[实际值和预期值做对比：0]]>
+            </line>
+            <line>
+              <![CDATA[数据库数据：[com.zhongkejingshang.inter.model.AutoLog@524c00ec]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhongkejingshang.testng.TestRun@1fc202e5]" name="f" duration-ms="21026" started-at="2019-07-29T10:25:03Z" data-provider="dp" finished-at="2019-07-29T10:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[查看本公司摄像机]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://10.11.99.4:4999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/app/Camera]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CID=1&CompanyName=Sylincom]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.CamResultM='Camera0: 10000 Camera1: 10001']]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口请求地址：http://10.11.99.4:4999/app/Camera]]>
+            </line>
+            <line>
+              <![CDATA[请求参数：CID=1&CompanyName=Sylincom]]>
+            </line>
+            <line>
+              <![CDATA[请求预期值：$.CamResultM='Camera0: 10000 Camera1: 10001']]>
+            </line>
+            <line>
+              <![CDATA[接口实际返回值：CID=1&CompanyName=Sylincom]]>
+            </line>
+            <line>
+              <![CDATA[实际值和预期值做对比：0]]>
+            </line>
+            <line>
+              <![CDATA[数据库数据：[com.zhongkejingshang.inter.model.AutoLog@524c00ec, com.zhongkejingshang.inter.model.AutoLog@159bd4f5]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhongkejingshang.testng.TestRun@1fc202e5]" name="f" duration-ms="21019" started-at="2019-07-29T10:25:24Z" data-provider="dp" finished-at="2019-07-29T10:25:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户登录]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://10.11.99.4:4999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/app/User]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[UID=1&LoginType=0&CompanyName=Sylincom&UserName=zhao6&LoginPassword=123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.UserResultM='Login successfully!']]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口请求地址：http://10.11.99.4:4999/app/User]]>
+            </line>
+            <line>
+              <![CDATA[请求参数：UID=1&LoginType=0&CompanyName=Sylincom&UserName=zhao6&LoginPassword=123]]>
+            </line>
+            <line>
+              <![CDATA[请求预期值：$.UserResultM='Login successfully!']]>
+            </line>
+            <line>
+              <![CDATA[接口实际返回值：UID=1&LoginType=0&CompanyName=Sylincom&UserName=zhao6&LoginPassword=123]]>
+            </line>
+            <line>
+              <![CDATA[实际值和预期值做对比：0]]>
+            </line>
+            <line>
+              <![CDATA[数据库数据：[com.zhongkejingshang.inter.model.AutoLog@524c00ec, com.zhongkejingshang.inter.model.AutoLog@159bd4f5, com.zhongkejingshang.inter.model.AutoLog@43350e24]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhongkejingshang.testng.TestRun@1fc202e5]" name="f" duration-ms="21019" started-at="2019-07-29T10:25:45Z" data-provider="dp" finished-at="2019-07-29T10:26:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户密码修改]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://10.11.99.4:4999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/app/User]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[UID=3&PModifyType=0&UserName=zhao6&OldPassword=111&NewPassword=333]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.UserResultM='the Successful password modification']]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口请求地址：http://10.11.99.4:4999/app/User]]>
+            </line>
+            <line>
+              <![CDATA[请求参数：UID=3&PModifyType=0&UserName=zhao6&OldPassword=111&NewPassword=333]]>
+            </line>
+            <line>
+              <![CDATA[请求预期值：$.UserResultM='the Successful password modification']]>
+            </line>
+            <line>
+              <![CDATA[接口实际返回值：UID=3&PModifyType=0&UserName=zhao6&OldPassword=111&NewPassword=333]]>
+            </line>
+            <line>
+              <![CDATA[实际值和预期值做对比：0]]>
+            </line>
+            <line>
+              <![CDATA[数据库数据：[com.zhongkejingshang.inter.model.AutoLog@524c00ec, com.zhongkejingshang.inter.model.AutoLog@159bd4f5, com.zhongkejingshang.inter.model.AutoLog@43350e24, com.zhongkejingshang.inter.model.AutoLog@5bb6815c]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.zhongkejingshang.testng.TestRun@1fc202e5]" name="afterTest" is-config="true" duration-ms="8345" started-at="2019-07-29T10:26:06Z" finished-at="2019-07-29T10:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.zhongkejingshang.testng.TestRun -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

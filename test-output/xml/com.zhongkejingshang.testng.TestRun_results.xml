@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="84.760">
+  <properties />
+  
+  
+            <testcase name="f" time="21.019" classname="com.zhongkejingshang.testng.TestRun" />
+                <testcase name="f" time="21.026" classname="com.zhongkejingshang.testng.TestRun" />
+                <testcase name="f" time="21.696" classname="com.zhongkejingshang.testng.TestRun" />
+                <testcase name="f" time="21.019" classname="com.zhongkejingshang.testng.TestRun" />
+      
+</testsuite>

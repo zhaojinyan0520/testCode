@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 26 16:58:39 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>86 seconds (86762 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.zhongkejingshang.testng.TestRun.f()'><b>f</b><br>Test class: com.zhongkejingshang.testng.TestRun<br>Parameters: 1, YES, 获取所有公司信息, POST, http://10.11.99.4:4999, /app/User, UID=200, $.status=200, , null<br/>
+<a href="#Output-1633856504" onClick='toggleBox("Output-1633856504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1633856504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1633856504">
+接口请求地址：http://10.11.99.4:4999/app/User<br/>
+请求参数：UID=200<br/>
+请求预期值：$.status=200<br/>
+接口实际返回值：UID=200<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.zhongkejingshang.testng.TestRun@2eea6b13</td></tr>
+<tr>
+<td title='com.zhongkejingshang.testng.TestRun.f()'><b>f</b><br>Test class: com.zhongkejingshang.testng.TestRun<br>Parameters: 2, YES, 查看本公司摄像机, POST, http://10.11.99.4:4999, /app/Camera, CID=1&CompanyName=Sylincom, $.CamResultM='Camera0: 10000 Camera1: 10001', , null<br/>
+<a href="#Output-941086981" onClick='toggleBox("Output-941086981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-941086981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-941086981">
+接口请求地址：http://10.11.99.4:4999/app/Camera<br/>
+请求参数：CID=1&CompanyName=Sylincom<br/>
+请求预期值：$.CamResultM='Camera0: 10000 Camera1: 10001'<br/>
+接口实际返回值：CID=1&CompanyName=Sylincom<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.zhongkejingshang.testng.TestRun@2eea6b13</td></tr>
+<tr>
+<td title='com.zhongkejingshang.testng.TestRun.f()'><b>f</b><br>Test class: com.zhongkejingshang.testng.TestRun<br>Parameters: 3, YES, 用户登录, POST, http://10.11.99.4:4999, /app/User, UID=1&LoginType=0&CompanyName=Sylincom&UserName=zhao6&LoginPassword=123, $.UserResultM='Login successfully!', , null<br/>
+<a href="#Output-1094417099" onClick='toggleBox("Output-1094417099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1094417099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1094417099">
+接口请求地址：http://10.11.99.4:4999/app/User<br/>
+请求参数：UID=1&LoginType=0&CompanyName=Sylincom&UserName=zhao6&LoginPassword=123<br/>
+请求预期值：$.UserResultM='Login successfully!'<br/>
+接口实际返回值：UID=1&LoginType=0&CompanyName=Sylincom&UserName=zhao6&LoginPassword=123<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.zhongkejingshang.testng.TestRun@2eea6b13</td></tr>
+<tr>
+<td title='com.zhongkejingshang.testng.TestRun.f()'><b>f</b><br>Test class: com.zhongkejingshang.testng.TestRun<br>Parameters: 4, YES, 用户密码修改, POST, http://10.11.99.4:4999, /app/User, UID=3&PModifyType=0&UserName=zhao6&OldPassword=111&NewPassword=333, $.UserResultM='the Successful password modification', , null<br/>
+<a href="#Output-1451124899" onClick='toggleBox("Output-1451124899", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1451124899" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1451124899">
+接口请求地址：http://10.11.99.4:4999/app/User<br/>
+请求参数：UID=3&PModifyType=0&UserName=zhao6&OldPassword=111&NewPassword=333<br/>
+请求预期值：$.UserResultM='the Successful password modification'<br/>
+接口实际返回值：UID=3&PModifyType=0&UserName=zhao6&OldPassword=111&NewPassword=333<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.zhongkejingshang.testng.TestRun@2eea6b13</td></tr>
+</table><p>
+</body>
+</html>
